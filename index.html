@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NTUA_YIGUI</title>
+    <title>yigui_kitchen</title>
     <link href="./css/reset.css" rel="stylesheet" />
-    <link href="./css/NTUA.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -16,61 +16,50 @@
     />
   </head>
   <body>
-    <div class="header">
-      <div class="header-logo">
-        <span class="material-symbols-outlined"> call </span>
-        <span class="material-symbols-outlined"> mail </span>
-      </div>
-      <div class="header-text">
-        <p style="font-family: Microsoft JhengHei">(02)22722181</p>
-        <p style="font-family: Microsoft JhengHei">yummy@bistrobliss</p>
-      </div>
-      <div class="logo-contact">
-        <div class="logo-twitter">
-          <a href="#"><img src="./img/logo-twitter.png" /></a>
+    <div class="topbar">
+      <div class="topbar-left">
+        <div class="topbar-phone">
+          <span class="material-symbols-outlined"> call </span>
+          <p style="font-family: Microsoft JhengHei">(02)22722181</p>
         </div>
-        <div class="logo-fb">
-          <a href="#"><img src="./img/logo-fb.png" /></a>
-        </div>
-        <div class="logo-ig">
-          <a href="#"><img src="./img/logo-ig.png" /></a>
-        </div>
-        <div class="logo-cat">
-          <a href="#"><img src="./img/logo-cat.png" /></a>
+        <div class="topbar-mail">
+          <span class="material-symbols-outlined"> mail </span>
+          <p style="font-family: Microsoft JhengHei">yummy@bistrobliss</p>
         </div>
       </div>
-      <nav class="logo-icon">
-        <div class="logo-icon-img">
-          <a href="#"><img src="./img/japanese-food.png" /></a>
-        </div>
-        <div class="logo-icon-text">
-          <a href="#"><img src="./img/Cuisine.png" /></a>
-        </div>
-        <nav class="nav-ul">
-          <ul>
-            <li>
-              <a href="#">首頁</a>
-            </li>
-            <li>
-              <a href="#">關於我們</a>
-            </li>
-            <li>
-              <a href="#">作品介紹</a>
-            </li>
-            <li>
-              <a href="#">聯絡我們</a>
-            </li>
-          </ul>
-          <button class="reserve-button">預約時段</button>
-        </nav>
-      </nav>
+      <div class="topbar-right">
+        <a href="#"><img src="./img/twitter.png" /></a>
+        <a href="#"><img src="./img/fb.png" /></a>
+        <a href="#"><img src="./img/ig.png" /></a>
+        <a href="#"><img src="./img/cat.png" /></a>
+      </div>
     </div>
-    <div class="hero">
-      <h1 class="main-title">台藝廚房</h1>
-      <p class="second-title">快來發現各種浮洲美食吧</p>
-      <div class="hero-button">
+    <div class="header">
+      <a href="#"><img src="./img/header-logo.png" /></a>
+      <ul class="header-ul">
+        <ul>
+          <li>
+            <a href="#">首頁</a>
+          </li>
+          <li>
+            <a href="#">關於我們</a>
+          </li>
+          <li>
+            <a href="#">作品介紹</a>
+          </li>
+          <li>
+            <a href="#">聯絡我們</a>
+          </li>
+        </ul>
+        <button class="reserve-button">預約時段</button>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="main-title"><p>台藝廚房</p></div>
+      <div class="second-title"><p>快來發現各種浮洲美食吧</p></div>
+      <div class="body-button">
         <button class="quick-reserve">快速預定</button>
-        <button class="meal">餐點瀏覽</button>
+        <button class="menu-scan">餐點預覽</button>
       </div>
     </div>
   </body>
