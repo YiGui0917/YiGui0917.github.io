@@ -11,6 +11,8 @@
   display: flex;
   height: 45px;
   align-items: center;
+  margin: -8px;
+  border: 0;
 }
 .topbar-left {
   display: flex;
@@ -24,10 +26,16 @@
   display: flex;
   font-size: 16px;
 }
+.topbar-phone span {
+  padding-top: 15px;
+}
 .topbar-mail {
   gap: 5px;
   display: flex;
   font-size: 16px;
+}
+.topbar-mail span {
+  padding-top: 15px;
 }
 .topbar-right {
   text-align: right;
@@ -141,6 +149,7 @@
   background-size: cover;
   background-position-y: 100px;
   padding-top: 50%;
+  margin: -8px;
 }
 .body-button {
   position: absolute;
